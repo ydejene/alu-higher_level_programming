@@ -1,0 +1,1 @@
+Pyhton exceptions practice
