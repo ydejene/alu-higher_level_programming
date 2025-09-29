@@ -4,7 +4,7 @@ const myArgs = process.argv.splice(2);
 if (myArgs.length === 0) {
   console.log('undefined is undefined');
 } else if (myArgs.length === 1) {
-  console.log('c is undefined');
+  console.log(`${myArgs[0]} is undefined`);
 } else {
-  console.log(`c is ${myArgs[1]}`);
+  console.log(`${myArgs[0]} is ${myArgs[1]}`);
 }
