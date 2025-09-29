@@ -1,4 +1,4 @@
-#!usr/bin/env node
+#!usr/bin/node
 let myArgs = process.argv.splice(2);
 function add(a, b) {
   if (isNaN(a) || isNaN(b) || myArgs.length < 2) {

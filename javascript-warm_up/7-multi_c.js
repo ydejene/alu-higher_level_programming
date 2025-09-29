@@ -1,4 +1,4 @@
-#!usr/bin/env node
+#!usr/bin/node
 let myArgs = process.argv[2];
 let num = parseInt(myArgs);
 let word = "C is fun";
