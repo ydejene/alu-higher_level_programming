@@ -1,12 +1,13 @@
 #!/usr/bin/node
-function factorial(num) {
-  if (isNaN(num) || num === 0 || num === 1) {
+
+function factorial(n) {
+  // base case and handling invalid input
+  if (isNaN(n) || n === 0 || n === 1) {
     return 1;
   }
-  return num * factorial(num - 1);
+  // recursive step
+  return n * factorial(n - 1);
 }
 
-const myArgs = process.argv[2];
-const inputNum = parseFloat(myArgs);
-const test = factorial(inputNum);
-console.log(test);
+const num = parseInt(process.argv[2]);
+console.log(factorial(num));
