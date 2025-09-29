@@ -1,0 +1,1 @@
+So we are basically practicing out javascript skills with simple exercises
