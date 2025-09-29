@@ -1,4 +1,4 @@
-#!usr/bin/node
+#!/usr/bin/node
 let myArgs = process.argv.splice(2);
 let num = parseInt(myArgs[0]);
 if (isNaN(num)) {
