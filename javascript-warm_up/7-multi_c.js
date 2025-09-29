@@ -5,7 +5,7 @@ const word = 'C is fun';
 if (isNaN(num)) {
   console.log('Missing number of occurrences');
 } else {
-  for (i = 1; i <= num; i++) {
+  for (let i = 1; i <= num; i++) {
     console.log(word);
   }
 }

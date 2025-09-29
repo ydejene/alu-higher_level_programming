@@ -6,8 +6,8 @@ let output = '';
 if (isNaN(num)) {
   console.log('Missing size');
 } else {
-  result = num ** 2;
-  for (i = 1; i <= result; i++) {
+  const result = num ** 2;
+  for (let i = 1; i <= result; i++) {
     output += 'X';
     if ((output.length === num)) {
       console.log(output);
