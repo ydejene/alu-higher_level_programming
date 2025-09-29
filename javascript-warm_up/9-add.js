@@ -1,8 +1,8 @@
 #!/usr/bin/node
-let myArgs = process.argv.splice(2);
-function add(a, b) {
+const myArgs = process.argv.splice(2);
+function add (a, b) {
   if (isNaN(a) || isNaN(b) || myArgs.length < 2) {
-    return "isNaN";
+    return 'isNaN';
   } else {
     result = parseFloat(a) + parseFloat(b);
     return result;
