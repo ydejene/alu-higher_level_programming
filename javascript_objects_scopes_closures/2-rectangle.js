@@ -5,10 +5,7 @@ module.exports = class Rectangle {
     if (w > 0 && h > 0) {
       this.width = r;
       this.height = h;
-    }
-    else{
-
+    } else {
     }
   }
-}
- 
+};
