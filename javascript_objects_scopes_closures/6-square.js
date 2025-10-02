@@ -1,8 +1,8 @@
 #!/usr/bin/node
 
-const ParentSquare = require('5-square.js');
+const Square = require('./5-square.js');
 
-module.exports = class Square extends ParentSquare {
+module.exports = class Square extends Square {
   constructor (size) {
     super(size);
   }
