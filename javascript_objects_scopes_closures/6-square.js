@@ -8,7 +8,7 @@ module.exports = class Square extends ParentSquare {
   }
 
   charPrint (c = 'X') {
-    for (let i = 0; i <= this.size; i++) {
+    for (let i = 1; i <= this.size; i++) {
       console.log(c.repeat(this.size));
     }
   }
