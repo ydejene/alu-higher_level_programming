@@ -1,4 +1,11 @@
 #!/usr/bin/node
-exports.nbOccurences = function (list, searchElement) {
-  return list.reduce((count, current) => current === searchElement ? count + 1 : count, 0);
-};
+
+exports.nbOccurences = function (list, searchElement){
+  let counter = 0;
+  // we can use the for .. of to make a cleaner code
+  for (const element of list) {
+    // if condition to check searchElement === element if true update the counter
+    if (element === searchElement) counter++; 
+  }
+  return counter;
+}
